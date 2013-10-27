@@ -1,0 +1,17 @@
+﻿InteriorDesign  对应的是前台的View项目
+InteriorDesign.End  对应的是后台的View项目<EasyUI>
+InteriorDesign.Context  对应的是数据库上下文项目
+InteriorDesign.Controllers 对应的是前端的控制器项目
+InteriorDesign.Controllers.End 对应的是后端的控制器项目
+InteriorDesign.Controllers.Common 对应的是前后端公用的控制器项目
+InteriorDesign.Template 对应的是控制器基本的Action接口模版
+InteriorDesign.Model 对应的Model
+InteriorDesign.Helper 对应的是项目帮助
+InteriorDesign.IRepository  对应的是Repository的接口
+<Repository对应前端Repository,RepositoryEnd对应后台Repository>
+InteriorDesign.Repository  对应的是数据操作层
+<Repository对应前端Repository,RepositoryEnd对应后台Repository>
+
+
+这个项目是以Asp.net MVc4+EF5+EasyUI,以面向接口编程为特点的项目
+前后台的View是分开建立的，测试的数据库用LocalDB，正式的数据库用Sql2008

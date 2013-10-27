@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Model", "InteriorDesign.Model\InteriorDesign.Model.csproj", "{2F770A99-7BEA-4508-9C78-B379A952B793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Context", "InteriorDesign.Context\InteriorDesign.Context.csproj", "{1167897E-48C7-4867-BD37-ACD88627B9C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.IRepository", "InteriorDesign.IRepository\InteriorDesign.IRepository.csproj", "{50E64751-FAA0-4BD3-9E22-32A3B33C642B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Repository", "InteriorDesign.Repository\InteriorDesign.Repository.csproj", "{18B4B469-E18D-4F6C-9B0B-BD5831D7E576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Template", "InteriorDesign.Template\InteriorDesign.Template.csproj", "{6DEEA3F3-41C6-4A27-811B-0374677E452A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Helper", "InteriorDesign.Helper\InteriorDesign.Helper.csproj", "{6636D734-20D3-48FA-837C-D3F3738DBA49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Controllers.Common", "InteriorDesign.Controller.Common\InteriorDesign.Controllers.Common.csproj", "{87BFCD8F-7857-4D85-8CB0-BD5CAE819040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InteriorDesign.Front", "InteriorDesign.Front", "{A4882682-D426-4CC3-82B1-CC576CBB5958}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InteriorDesign.End", "InteriorDesign.End", "{5EE2AD67-918E-4D76-9707-C77B72E3ED40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign", "InteriorDesign\InteriorDesign.csproj", "{7ECD5EA8-F839-4F50-8608-CDA2D9A60204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Controllers", "InteriorDesign.Controller\InteriorDesign.Controllers.csproj", "{9FDB7815-247C-4846-B2BC-799811074ACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.End", "InteriorDesign.End\InteriorDesign.End.csproj", "{5A97A124-921D-4997-AE01-A29A5B572953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteriorDesign.Controllers.End", "InteriorDesign.Controller.End\InteriorDesign.Controllers.End.csproj", "{D7503C43-7140-4373-B274-56F974C2653C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InteriorDesign.Doc", "InteriorDesign.Doc", "{78A15F2A-751A-436F-8229-672914788866}"
+	ProjectSection(SolutionItems) = preProject
+		InteriorDesign.Doc\GitHub说明文档.txt = InteriorDesign.Doc\GitHub说明文档.txt
+		InteriorDesign.Doc\网站文档.docx = InteriorDesign.Doc\网站文档.docx
+		InteriorDesign.Doc\项目开发步骤.docx = InteriorDesign.Doc\项目开发步骤.docx
+		InteriorDesign.Doc\项目结构说明.txt = InteriorDesign.Doc\项目结构说明.txt
+		InteriorDesign.Doc\项目问题说明.docx = InteriorDesign.Doc\项目问题说明.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F770A99-7BEA-4508-9C78-B379A952B793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F770A99-7BEA-4508-9C78-B379A952B793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F770A99-7BEA-4508-9C78-B379A952B793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F770A99-7BEA-4508-9C78-B379A952B793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1167897E-48C7-4867-BD37-ACD88627B9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1167897E-48C7-4867-BD37-ACD88627B9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1167897E-48C7-4867-BD37-ACD88627B9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1167897E-48C7-4867-BD37-ACD88627B9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E64751-FAA0-4BD3-9E22-32A3B33C642B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E64751-FAA0-4BD3-9E22-32A3B33C642B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E64751-FAA0-4BD3-9E22-32A3B33C642B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E64751-FAA0-4BD3-9E22-32A3B33C642B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B4B469-E18D-4F6C-9B0B-BD5831D7E576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B4B469-E18D-4F6C-9B0B-BD5831D7E576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B4B469-E18D-4F6C-9B0B-BD5831D7E576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B4B469-E18D-4F6C-9B0B-BD5831D7E576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEEA3F3-41C6-4A27-811B-0374677E452A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEEA3F3-41C6-4A27-811B-0374677E452A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEEA3F3-41C6-4A27-811B-0374677E452A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEEA3F3-41C6-4A27-811B-0374677E452A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6636D734-20D3-48FA-837C-D3F3738DBA49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6636D734-20D3-48FA-837C-D3F3738DBA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6636D734-20D3-48FA-837C-D3F3738DBA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6636D734-20D3-48FA-837C-D3F3738DBA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BFCD8F-7857-4D85-8CB0-BD5CAE819040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BFCD8F-7857-4D85-8CB0-BD5CAE819040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BFCD8F-7857-4D85-8CB0-BD5CAE819040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BFCD8F-7857-4D85-8CB0-BD5CAE819040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECD5EA8-F839-4F50-8608-CDA2D9A60204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECD5EA8-F839-4F50-8608-CDA2D9A60204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECD5EA8-F839-4F50-8608-CDA2D9A60204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECD5EA8-F839-4F50-8608-CDA2D9A60204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDB7815-247C-4846-B2BC-799811074ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDB7815-247C-4846-B2BC-799811074ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDB7815-247C-4846-B2BC-799811074ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDB7815-247C-4846-B2BC-799811074ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A97A124-921D-4997-AE01-A29A5B572953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A97A124-921D-4997-AE01-A29A5B572953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A97A124-921D-4997-AE01-A29A5B572953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A97A124-921D-4997-AE01-A29A5B572953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7503C43-7140-4373-B274-56F974C2653C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7503C43-7140-4373-B274-56F974C2653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7503C43-7140-4373-B274-56F974C2653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7503C43-7140-4373-B274-56F974C2653C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ECD5EA8-F839-4F50-8608-CDA2D9A60204} = {A4882682-D426-4CC3-82B1-CC576CBB5958}
+		{9FDB7815-247C-4846-B2BC-799811074ACB} = {A4882682-D426-4CC3-82B1-CC576CBB5958}
+		{5A97A124-921D-4997-AE01-A29A5B572953} = {5EE2AD67-918E-4D76-9707-C77B72E3ED40}
+		{D7503C43-7140-4373-B274-56F974C2653C} = {5EE2AD67-918E-4D76-9707-C77B72E3ED40}
+	EndGlobalSection
+EndGlobal
