@@ -7,7 +7,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Web;
 using System.Web.Mvc;
-using InteriorDesign.Model;
+using InteriorDesign.Model.End;
 using InteriorDesign.Helper;
 
 namespace InteriorDesign.Controllers.Common

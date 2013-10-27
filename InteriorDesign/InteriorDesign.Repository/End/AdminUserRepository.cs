@@ -1,11 +1,11 @@
 ﻿using System.Text;
 using System.Threading.Tasks;
-using InteriorDesign.IRepository;
+using InteriorDesign.IRepository.End;
 using InteriorDesign.Repository;
-using InteriorDesign.Model;
+using InteriorDesign.Model.End;
 using InteriorDesign.Context;
 
-namespace InteriorDesign.Repository
+namespace InteriorDesign.Repository.End
 {
     public class AdminUserRepository : BaseRepository<AdminUser, InteriorDesignContext>, IAdminUserRepository
     {

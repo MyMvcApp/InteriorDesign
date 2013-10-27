@@ -41,8 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseModel.cs" />
-    <Compile Include="ModelsEnd\AdminUser.cs" />
-    <Compile Include="Modles\PagedPeoPle.cs" />
+    <Compile Include="End\AdminUser.cs" />
+    <Compile Include="Front\PagedPeoPle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

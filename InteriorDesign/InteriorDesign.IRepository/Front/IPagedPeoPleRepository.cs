@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using InteriorDesign.Model;
+using InteriorDesign.Model.Front;
 using InteriorDesign.Context;
 
-namespace InteriorDesign.IRepository
+namespace InteriorDesign.IRepository.Front
 {
     /// <summary>
     /// PagedPeoPle数据库操作接口定义

@@ -6,10 +6,10 @@ using System.Web;
 using System.Web.Mvc;
 using InteriorDesign.Context;
 using InteriorDesign.Helper;
-using InteriorDesign.Model;
-using InteriorDesign.Repository;
+using InteriorDesign.Model.End;
+using InteriorDesign.Repository.End;
 using InteriorDesign.Controllers.Common;
-using InteriorDesign.IRepository;
+using InteriorDesign.IRepository.End;
 using System.Data.Entity.Infrastructure;
 namespace InteriorDesign.Controllers.End.Controllers
 {

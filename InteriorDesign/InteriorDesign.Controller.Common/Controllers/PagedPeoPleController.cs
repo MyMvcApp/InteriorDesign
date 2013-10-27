@@ -5,14 +5,14 @@ using System.Text;
 using System.Data;
 using System.Data.Entity;
 using System.Web.Mvc;
-using InteriorDesign.Model;
-using InteriorDesign.Repository;
+using InteriorDesign.Model.Front;
+using InteriorDesign.Repository.Front;
 using InteriorDesign.Context;
 using InteriorDesign.Template;
 using System.Linq.Expressions;
 using PagedList;
 using InteriorDesign.Helper;
-using InteriorDesign.IRepository;
+using InteriorDesign.IRepository.Front;
 
 namespace InteriorDesign.Controllers.Common.Controllers
 {

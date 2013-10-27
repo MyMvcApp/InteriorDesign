@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace InteriorDesign.Model
+namespace InteriorDesign.Model.End
 {
     /// <summary>
     /// 后台管理员表

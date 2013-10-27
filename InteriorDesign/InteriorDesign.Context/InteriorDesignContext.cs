@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using InteriorDesign.Model;
+using InteriorDesign.Model.Front;
 namespace InteriorDesign.Context
 {
     //前端的表
