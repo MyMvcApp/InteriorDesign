@@ -25,3 +25,6 @@ git clone url (https://github.com/MyMvcApp/MyMvc.git)
 git status 
 
 GitHub图形化工具安装在GitHub--Install/GitHubSetup.exe
+图形化工具操作说明：
+1.提交信息，当更改的时候首先写如提交的信息
+2.点击同步按钮，等待操作完成就可以了。
