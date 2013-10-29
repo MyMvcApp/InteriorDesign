@@ -12,6 +12,7 @@ namespace InteriorDesign.Model.End
     /// </summary>
     public class AdminUser : BaseModel
     {
+        [Display(Name = "用户名")]
         [MaxLength(50)]
         [Display(Name="管理员名称")]
         public string AdminName { get; set; }
