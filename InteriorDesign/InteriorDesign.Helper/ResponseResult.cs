@@ -18,12 +18,15 @@ namespace InteriorDesign.Helper
     public enum ResponseStatus { 
         success,
         commonError,
-        rowVersionError
+        rowVersionError,
+        loginError,
+        validateError
     }
 
     public enum ResponseMessage { 
         操作成功,
         操作失败,
-        数据已修改请刷新后重试
+        数据已修改请刷新后重试,
+        回话已过期请重新登录
     }
 }

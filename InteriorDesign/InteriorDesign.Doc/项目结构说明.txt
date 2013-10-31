@@ -1,10 +1,16 @@
-﻿InteriorDesign  对应的是前台的View项目
-InteriorDesign.End  对应的是后台的View项目<EasyUI>
-InteriorDesign.Context  对应的是数据库上下文项目
-InteriorDesign.Controllers 对应的是前端的控制器项目
-InteriorDesign.Controllers.End 对应的是后端的控制器项目
-InteriorDesign.Controllers.Common 对应的是前后端公用的控制器项目
-InteriorDesign.Template 对应的是控制器基本的Action接口模版
+﻿InteriorDesign.Common 对应的是整个项目的View
+InteriorDesign.Common.Areas.AdminEnd对应的后台项目的View
+InteriorDesign.Common.Content对应的是项目的css
+InteriorDesign.Common.Content.AdminEnd对应的后台项目的css
+InteriorDesign.Common.Script对应的是项目的脚本
+InteriorDesign.Common.Script.AdminEnd对应的是后台项目的脚本
+InteriorDesign.Common.Script.AdminEnd.ContentScript对应后台脚本各个页面的js
+InteriorDesign.Common.Controllers对应的是项目的控制器
+InteriorDesign.Common.Controllers.Controllers.End对应的后台的控制器
+InteriorDesign.Common.Controllers.Controllers.End.Common对应的后台的公用控制器<不需要代码生成器生成>
+InteriorDesign.Common.Controllers.Controllers.Front对应的前台的控制器
+InteriorDesign.Common.Controllers.Controllers.Front.Common对应的前台的公用控制器<不需要代码生成器生成>
+InteriorDesign.Template对应的是Controller接口的方法,后期可以扩展
 InteriorDesign.Model 对应的Model
 InteriorDesign.Helper 对应的是项目帮助
 InteriorDesign.IRepository  对应的是Repository的接口
