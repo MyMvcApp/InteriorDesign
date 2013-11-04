@@ -20,7 +20,7 @@ namespace InteriorDesign.Common
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 #if DEBUG
-            Database.SetInitializer<InteriorDesignContext>(new InteriorDesignInitializer());
+            //Database.SetInitializer<InteriorDesignContext>(new InteriorDesignInitializer());
 #endif
         }
     }

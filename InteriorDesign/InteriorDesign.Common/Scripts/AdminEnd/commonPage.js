@@ -18,6 +18,15 @@ function onClickRow(index) {
     rowIndex = index;
 }
 
+function loadError() {
+    common.alertErrorMsg();
+}
+
+function loadSuccess(data) {
+    if (data.Message != undefined)
+        common.alertError(data.Message);
+}
+
 //新增对应的方法，setDefaultValue用于设置新增之前的默认值
 function addData() {
     if (typeof (beforeAdd) == "function") {

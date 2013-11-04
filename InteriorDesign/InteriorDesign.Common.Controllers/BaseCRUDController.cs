@@ -217,7 +217,7 @@ namespace InteriorDesign.Common.Controllers
         [HttpPost]
         public virtual JsonResult GetDataList(string page, string rows)
         {
-            if (base.CheckIfLoginMessage() != null) return Json(base.CheckIfLoginMessage());
+            if (!base.CheckIfLogin()) return base.ResponseForGrid(ResponseMessage.回话已过期请重新登录.ToString());
             try
             {
                 Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderby
@@ -226,7 +226,7 @@ namespace InteriorDesign.Common.Controllers
             }
             catch (Exception ex)
             {
-                return Json(new ResponseResult { Status = ResponseStatus.commonError.ToString(), Message = ex.Message }, JsonRequestBehavior.AllowGet);
+                return base.ResponseForGrid(ex.Message);
             }
         }
 
@@ -240,7 +240,7 @@ namespace InteriorDesign.Common.Controllers
         [HttpPost]
         public virtual JsonResult GetDataListByID(string page, string rows, string id)
         {
-            if (base.CheckIfLoginMessage() != null) return Json(base.CheckIfLoginMessage());
+            if (!base.CheckIfLogin()) return base.ResponseForGrid(ResponseMessage.回话已过期请重新登录.ToString());
             try
             {
                 Expression<Func<TEntity, bool>> filter = null;
@@ -254,7 +254,7 @@ namespace InteriorDesign.Common.Controllers
             }
             catch (Exception ex)
             {
-                return Json(new ResponseResult { Status = ResponseStatus.commonError.ToString(), Message = ex.Message }, JsonRequestBehavior.AllowGet);
+                return base.ResponseForGrid(ex.Message);
             }
         }
     }

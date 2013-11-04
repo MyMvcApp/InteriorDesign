@@ -97,5 +97,15 @@ namespace InteriorDesign.Common.Controllers
             return true;
         }
 
+        /// <summary>
+        /// 判断登录Grid用
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public JsonResult ResponseForGrid(string message) 
+        {
+          return  new JsonResult() { Data = new { total = 0, rows =new List<object>(), Status = ResponseStatus.commonError.ToString(),Message = message }};
+        }
+
     }
 }

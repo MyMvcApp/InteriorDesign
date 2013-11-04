@@ -17,13 +17,12 @@ using InteriorDesign.Common.Controllers;
 namespace InteriorDesign.Controllers.Common.Controllers.Front
 {
     //PagedPeoPle对应的前台控制器
-    public class PagedPeoPleController : BaseCRUDController<PagedPeoPle, InteriorDesignContext>
+    public class PagedPeoPleController : BaseController
     {
         private IPagedPeoPleRepository pagedPeoPleRepository;
         public PagedPeoPleController()
         {
             pagedPeoPleRepository = new PagedPeoPleRepository(new InteriorDesignContext());
-            BaseReposity = pagedPeoPleRepository;
         }
 
         public ActionResult Index(string sortOrder, string searchString, string currentFilter, int? page, int pageSize = 1)
@@ -105,6 +104,18 @@ namespace InteriorDesign.Controllers.Common.Controllers.Front
                 pagedPeoPleRepository.Update(pagedPeoPle);
                 return RedirectToAction("Index");
             }
+            return View(pagedPeoPle);
+        }
+
+
+        public ActionResult CreatePeople(PagedPeoPle pagedPeoPle) 
+        {
+            if (ModelState.IsValid)
+            {
+                pagedPeoPleRepository.Create(pagedPeoPle);
+                return RedirectToAction("Index");
+            }
+
             return View(pagedPeoPle);
         }
 
