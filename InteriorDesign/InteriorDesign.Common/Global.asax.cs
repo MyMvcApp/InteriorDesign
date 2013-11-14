@@ -5,11 +5,10 @@ using System.Web.Routing;
 using System.Web.Optimization;
 using System.Data.Entity;
 using InteriorDesign.Context;
+using InteriorDesign.Common.Migrations;
 
 namespace InteriorDesign.Common
 {
-    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
-    // visit http://go.microsoft.com/?LinkId=9394801
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
@@ -20,7 +19,7 @@ namespace InteriorDesign.Common
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 #if DEBUG
-            //Database.SetInitializer<InteriorDesignContext>(new InteriorDesignInitializer());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<InteriorDesignContext,Configuration>());
 #endif
         }
     }

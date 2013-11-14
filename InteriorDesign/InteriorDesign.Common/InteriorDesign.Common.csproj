@@ -128,6 +128,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -543,6 +544,10 @@
     <ProjectReference Include="..\InteriorDesign.Context\InteriorDesign.Context.csproj">
       <Project>{1167897e-48c7-4867-bd37-acd88627b9c5}</Project>
       <Name>InteriorDesign.Context</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InteriorDesign.Helper\InteriorDesign.Helper.csproj">
+      <Project>{6636d734-20d3-48fa-837c-d3f3738dba49}</Project>
+      <Name>InteriorDesign.Helper</Name>
     </ProjectReference>
     <ProjectReference Include="..\InteriorDesign.Model\InteriorDesign.Model.csproj">
       <Project>{2f770a99-7bea-4508-9c78-b379a952b793}</Project>
